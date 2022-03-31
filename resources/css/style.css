@@ -30,16 +30,72 @@ html {
   margin: 0 auto;
 }
 
+section {
+  padding: 80px 0;
+}
+
+.box {
+  padding: 1%;
+}
+
 /* -----HEADINGS----- */
+h1,
+h2,
+h3 {
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
 h1 {
   margin-top: 0;
   margin-bottom: 30px;
-  text-transform: uppercase;
-  color: #fff;
   font-size: 240%;
-  font-weight: 300;
   letter-spacing: 1px;
   word-spacing: 4px;
+  color: #fff;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 180%;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+
+h3 {
+  font-size: 110%;
+  margin-bottom: 15px;
+}
+
+h2::after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 2px;
+  background-color: #e67e22;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+/* -----PARAGRAPHS----- */
+.long-copy {
+  width: 70%;
+  margin-left: 15%;
+  line-height: 140%;
+  margin-bottom: 30px;
+}
+
+.box p {
+  line-height: 145%;
+  font-size: 90%;
+}
+
+/* ----ICONS---- */
+.icon-big {
+  font-size: 250%;
+  color: #e67e22;
+  margin-bottom: 10px;
 }
 
 /* -----BUTTONS----- */
