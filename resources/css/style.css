@@ -530,19 +530,23 @@ footer {
   transition: all 0.2s;
 }
 
-.facebook-icon:hover {
+.facebook-icon:hover,
+.facebook-icon:active {
   color: #4267b2;
 }
 
-.twitter-icon:hover {
+.twitter-icon:hover,
+.twitter-icon:active {
   color: #00acee;
 }
 
-.instagram-icon:hover {
+.instagram-icon:hover,
+.instagram-icon:active {
   color: #3f729b;
 }
 
-.google-icon:hover {
+.google-icon:hover,
+.google-icon:active {
   color: #4285f4;
 }
 
